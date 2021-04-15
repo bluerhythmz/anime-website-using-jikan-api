@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/5967b89270.js" crossorigin="anonymous"></script>
+    <title>Anime Zone</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="title-box">
+                <svg class="nav-icon --white" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+                <span class="nav-title">Anime Zone</span>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link">Home</li>
+                <li class="nav-link">Shows</li>
+                <li class="nav-link">Manga</li>
+                <li class="nav-link">About</li>
+                <li class="nav-link">Contact</li>
+            </ul>
+            <div class="header__login">
+                <span class="login">Log In</span>
+                <svg class="search-icon --white" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            </div>
+        </nav>
+        <div class="header__search">
+            <input class="search-bar" type="search" placeholder="Search. . ." >
+            <div class="search-suggestions"></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="hero">
+            <div class="hero__items">
+                <h1 class="hero__title">
+                    The World's best anime
+                </h1>
+                <p class="hero__description">Binge watch thousands of hours of anime ranging from iconic classics to the latest and greatest hits. Enjoy ad-free subs and dubs that you can stream or download on the go.</p>
+                <div class="hero__button --btn">Watch Now</div>
+            </div>
+        </div>
+        <div class="anime">
+            <h2 class="anime__header">Top Anime</h2>
+            <div id="top-anime-container" class="anime__card-container">
+                <!-- <img src="./icons/arrow.png" alt="" class="anime-arrow"> -->
+            </div>
+        </div>
+        <div class="anime">
+            <h2 class="anime__header">Spring 2021 Anime</h2>
+            <div id="season-anime-container" class="anime__card-container"></div>
+        </div>
+        <div class="advert">
+            <h3 class="advert__header">Stream Ad-Free Anime with Premium for $7.99 a month</h3>
+            <p class="advert__description">Enjoy over 20,000 episodes and movies from our huge catalog of subs and dubs, featuring a deep library of big hits, fan favorites and all-time classics, as well as the latest shows straight out of Japan.</p>
+            <div class="advert__button --btn">Start My Free Trial</div>
+        </div>
+        <footer class="footer">
+            <div class="footer__info">
+                <p class="footer-text">ABOUT FUNIMATION</p>
+                <p class="footer-text">CUSTOMER SUPPORT</p>
+                <p class="footer-text">TERMS OF USE</p>
+                <p class="footer-text">PRIVACY POLICY</p>
+                <p class="footer-text">DO NOT SELL MY PERSONAL INFORMATION</p>
+            </div>
+            <div class="footer__logos">
+                <i class="fa fa-twitter logo" aria-hidden="true"></i>
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </div>
+            <div class="footer__copyright">
+                <p class="copyright-text">©2021 Anime Zone Global Group, LLC All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
